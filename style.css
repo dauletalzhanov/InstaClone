@@ -1,0 +1,29 @@
+@import url("sidebar.css");
+@import url("content.css");
+@import url("recommend.css");
+
+body {
+	display: flex;
+	justify-content: space-between;
+	flex: 1;
+
+	margin: 0;
+}
+
+.sidebar {
+	width: 15vw;
+	border-right: solid 1px grey;
+	position: fixed;
+	
+	height: 100%;
+}
+
+.content {
+	margin-left: 15vw;
+	flex-grow: 1;
+	flex-shrink: 1;
+}
+
+.recommend {
+	width: 20vw;
+}

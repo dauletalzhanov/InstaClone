@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+
+.sidebar {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	
+	justify-content: space-between;
+}
+
+#logo {
+	font-family: 'Lobster Two', sans-serif;
+	color: black;
+	font-size: 3vw;
+	margin: 1vw;
+}
+
+.sidebar ul {
+	padding: 0;
+}
+
+.sidebar li {
+	list-style: none;
+	padding: 1vw 2vw;
+	font-size: 1vw;
+
+	font-family: sans-serif;
+
+	display: flex;
+	align-items: center;
+}
+
+.sidebar li img {
+	width: 1.5vw;
+	margin-right: 0.5vw;
+}
