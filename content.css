@@ -24,8 +24,6 @@
 
 .stories li img {
 	width: 3vw;
-	border-radius: 30%;
-	border-style: double;
 	margin: 0;
 }
 
@@ -62,8 +60,7 @@
 
 .stories li img {
 	width: 3vw;
-	border-radius: 30%;
-	border-style: double;
+
 	margin: 0;
 }
 
@@ -140,8 +137,6 @@
 	flex-grow: 1;
 }
 
-
-
 .grey {
 	color: grey;
 }
@@ -162,16 +157,16 @@
 }
 
 #second {
-	width: 40vw;
+	width: 50vw;
 }
 
 #third {
-	width: 32vw;
+	width: 48vw;
 }
 
 iframe {
-	height: 18vw;
-	width: 32vw;
+	height: 27vw;
+	width: 48vw;
 }
 
 
