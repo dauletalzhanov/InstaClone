@@ -157,9 +157,21 @@
 }
 
 
+#first {
+
+}
+
+#second {
+	width: 40vw;
+}
+
+#third {
+	width: 32vw;
+}
+
 iframe {
-	height: 22vw;
-	width: 30vw;
+	height: 18vw;
+	width: 32vw;
 }
 
 
