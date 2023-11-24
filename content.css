@@ -95,11 +95,11 @@
 	margin: 1vw;
 	padding: 0;
 	border-top: 1px solid grey;
-	background-color: lightyellow;
+	font-family: sans-serif;
 
 	width: 30vw;
 
-	background-color: whitesmoke;
+	background-color: ;
 
 	display: flex;
 	flex-direction: column;
@@ -118,7 +118,7 @@
 	padding: 0.25vw;
 
 	font-family: sans-serif;
-	font-size: 1vw;
+	font-size: 0.8vw;
 }
 
 .post p {
@@ -142,11 +142,19 @@
 
 
 
+.grey {
+	color: grey;
+}
 
 
+.bold {
+	font-weight: bold;
+}
 
-
-
+.marg {
+	padding: 0.2vw 0;
+	font-size: 0.8vw;
+}
 
 
 
