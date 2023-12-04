@@ -37,7 +37,7 @@
 
 /****************** More Buttons ***********************/
 .moreDropDownList {
-	display: flex;
+	display: none;
 	flex-direction: column;
 
 
