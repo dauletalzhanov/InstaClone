@@ -36,6 +36,25 @@
 }
 
 /****************** More Buttons ***********************/
+
+.more {
+	background-color: white;
+	border: none;
+	font-size: 1vw;
+	font-family: sans-serif;
+	padding: 0vw;
+
+	display: flex;
+
+}
+
+.more img {
+	width: 1.5vw;
+	margin-right: 0.5vw;
+}
+
+
+
 .moreDropDownList {
 	display: none;
 	flex-direction: column;
@@ -43,7 +62,7 @@
 
 	position: absolute;
 	left: 15vw;
-	bottom: 2 vw;
+	bottom: 2vw;
 }
 
 .moreDropDownList button {
