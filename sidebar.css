@@ -34,3 +34,31 @@
 	width: 1.5vw;
 	margin-right: 0.5vw;
 }
+
+/****************** More Buttons ***********************/
+.moreDropDownList {
+	display: flex;
+	flex-direction: column;
+
+
+	position: absolute;
+	left: 15vw;
+	bottom: 2 vw;
+}
+
+.moreDropDownList button {
+	width: 7.5vw;
+	height: 2.5vw;
+
+	border: none;
+}
+
+.darkMode {
+	background-color: #182747;
+	color: whitesmoke;
+}
+
+.lightsOut {
+	background-color: black;
+	color: whitesmoke;
+}
