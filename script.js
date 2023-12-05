@@ -80,3 +80,28 @@ for (let i=0; i<sections.length; i++){
 }
 
 ///////////////////////////////////////////////////////////
+
+
+//////////////////  Content - buttons /////////////////
+
+heartButton = document.querySelectorAll(".heart")
+
+for(let i=0; i<heartButton.length; i++){
+	heartButton[i].addEventListener('click', function(e){
+
+		if (heartButton[i].src.includes('heart3.svg')){
+			heartButton[i].src = "./images/vectors/heart2.svg"
+			likes = heartButton[i].parentElement.parentElement.nextElementSibling.firstChild
+			likes.textContent--
+		} else {
+			heartButton[i].src = "./images/vectors/heart3.svg"
+			likes = heartButton[i].parentElement.parentElement.nextElementSibling.firstChild
+			likes.textContent++
+		}		
+
+	})
+}
+
+////////////////////////////////////////////////////////////
+
+//https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=0&mute=1
