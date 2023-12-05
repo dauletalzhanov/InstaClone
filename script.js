@@ -85,7 +85,6 @@ for (let i=0; i<sections.length; i++){
 //////////////////  Content - buttons /////////////////
 
 heartButton = document.querySelectorAll(".heart")
-
 for(let i=0; i<heartButton.length; i++){
 	heartButton[i].addEventListener('click', function(e){
 
@@ -99,6 +98,24 @@ for(let i=0; i<heartButton.length; i++){
 			likes.textContent++
 		}		
 
+	})
+}
+
+///_________________________________________________///
+
+bookmark = document.querySelectorAll(".bookmark")
+for(let i=0; i<bookmark.length; i++){
+
+	bookmark[i].addEventListener('click', function(e){
+		
+		//bookmark[i].src = "./images/vectors/bookmark2.svg"
+
+		if (bookmark[i].src.includes('bookmark2.svg')){
+			bookmark[i].src = "./images/vectors/bookmark.svg"
+		} else {
+			bookmark[i].src = "./images/vectors/bookmark2.svg"
+		}
+		
 	})
 }
 
