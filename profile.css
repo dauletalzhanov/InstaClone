@@ -1,0 +1,44 @@
+.profile-section {
+    margin-left: 33.33vw;
+}
+
+.details {
+    display: flex;
+    justify-content: space-around;
+
+    font-size: 1vw;
+    font-family: sans-serif;
+
+}
+
+.details img {
+    width: 10vw;
+    margin-right: 2.5vw;
+}
+
+.rightie {
+    display: flex;
+    flex-direction: column;
+}
+
+.rightie .row{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row button {
+    height: 3vh;
+    margin: 0 1vw;
+    padding: 0 1vw;
+    border: none;
+    border-radius: 10%;
+    font-size: 1vw;
+}
+
+.rightie .row p {
+    padding: 0;
+    margin: 1vh 0;
+}
