@@ -1,6 +1,10 @@
 .profile-section {
     margin-left: 33.33vw;
+    display: flex;
+    flex-direction: column;
 }
+
+/****************** profile details *************************/
 
 .details {
     display: flex;
@@ -11,9 +15,12 @@
 
 }
 
-.details img {
+.profile-picture {
     width: 10vw;
+    height: 10vw;
     margin-right: 2.5vw;
+    border: solid black;
+    border-radius: 50%;
 }
 
 .rightie {
@@ -42,3 +49,24 @@
     padding: 0;
     margin: 1vh 0;
 }
+
+/********************* stories **************************/
+.stories {
+    display: flex;
+    flex-direction: row;
+}
+
+.stories div {
+    margin: 1vw 5vw;
+}
+
+.stories div img {
+    width: 3.5vw;
+    border: solid black;
+    border-radius: 50%;
+}
+
+.stories div p {
+    text-align: center;
+}
+
