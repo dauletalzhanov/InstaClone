@@ -49,17 +49,14 @@ darkMode.addEventListener("click", function(){
 })
 
 lightsOut.addEventListener("click", function(){
-	moreContent.style.display = "none"
-	//location.href = "Lights Out/darkMode.html";#
-
-	
+	moreContent.style.display = "none"	
 })
 
 
 //////////////////////////////////////////////////////////
 
 
-///////////////////// sections ///////////////////////////
+///////////////////// sidebar clicking sections ///////////////////////////
 
 sections = document.querySelectorAll(".sections li")
 
@@ -79,10 +76,45 @@ for (let i=0; i<sections.length; i++){
 	})
 }
 
-///////////////////////////////////////////////////////////
 
 
-//////////////////  Content - buttons /////////////////
+/////////////////// redirecting home ///////////////////
+homeButton = document.querySelector(".sections").firstElementChild
+instaClone = document.querySelector("#logo")
+
+homeButton.addEventListener('click', function(){
+	if(window.location.pathname.includes("index.html")){
+		window.location = "index.html"
+	} else if(window.location.pathname.includes("profile.html")){
+		window.location = "../index.html"
+	}
+})
+
+instaClone.addEventListener('click', function(){
+	if(window.location.pathname.includes("index.html")){
+		window.location = "index.html"
+	} else if(window.location.pathname.includes("profile.html")){
+		window.location = "../index.html"
+	}
+})
+
+function takeHome(){
+	if(window.location.pathname.includes("index.html")){
+		window.location = "index.html"
+	} else if(window.location.pathname.includes("profile.html")){
+		window.location = "../index.html"
+	}
+}
+
+///////////////////// redirecting to a profile page //////////
+profile = document.querySelector(".profile")
+
+profile.addEventListener('click', function(){
+	window.location="./John Doe/profile.html"
+})
+
+
+//////////////////  like button - buttons /////////////////
 
 heartButton = document.querySelectorAll(".heart")
 for(let i=0; i<heartButton.length; i++){
@@ -101,7 +133,7 @@ for(let i=0; i<heartButton.length; i++){
 	})
 }
 
-///_________________________________________________///
+///___________________bookmark button__________________///
 
 bookmark = document.querySelectorAll(".bookmark")
 for(let i=0; i<bookmark.length; i++){
