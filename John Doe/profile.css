@@ -70,3 +70,23 @@
     text-align: center;
 }
 
+/************************ divide **************************/
+.divide {
+    border-top: solid lightgrey 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 43vw;
+}
+
+.divide div {
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+    margin-right: 1.5vw;
+}
+
+.divide div img {
+    width: 1vw;
+    margin-right: 0.20vw;
+}
