@@ -90,3 +90,10 @@
     width: 1vw;
     margin-right: 0.20vw;
 }
+
+
+/********************** pics ****************************/
+.pics img {
+    width: 20vw;
+    height: 20vw;
+}
