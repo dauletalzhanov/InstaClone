@@ -43,7 +43,10 @@
     padding: 0 1vw;
     border: none;
     border-radius: 10%;
-    font-size: 1vw;
+    
+    font-size: 0.7vw;
+    font-weight: bold;
+
 }
 
 .row button img {
