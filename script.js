@@ -87,7 +87,10 @@ homeButton.addEventListener('click', function(){
 		window.location = "index.html"
 	} else if(window.location.pathname.includes("profile.html")){
 		window.location = "../index.html"
+	} else {
+		window.location = "../../index.html"
 	}
+
 })
 
 instaClone.addEventListener('click', function(){
@@ -95,6 +98,8 @@ instaClone.addEventListener('click', function(){
 		window.location = "index.html"
 	} else if(window.location.pathname.includes("profile.html")){
 		window.location = "../index.html"
+	} else {
+		window.location = "../../index.html"
 	}
 })
 
@@ -103,6 +108,8 @@ function takeHome(){
 		window.location = "index.html"
 	} else if(window.location.pathname.includes("profile.html")){
 		window.location = "../index.html"
+	} else {
+		window.location = "../../index.html"
 	}
 }
 
