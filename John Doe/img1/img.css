@@ -1,0 +1,100 @@
+.content {
+	margin-left: 32.5vw;
+	font-family: sans-serif;
+	width: 30vw;
+}
+
+/***************** top ******************/
+
+.top {
+	display: flex;
+	justify-content: space-between;
+	width: 48vw;
+	font-weight: bold;
+}
+
+.top1 {
+	display: flex;
+	flex-direction: row;
+}
+
+.top1 img {
+	height: 2vw;
+	width: 2vw;
+}
+
+.top1 p {
+	margin-left: 1vw;
+}
+
+.top1 a {
+	font-style: normal;
+}
+
+/***************** buttons ******************/
+.buttons {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 48vw;
+}
+
+.buttons img {
+	width: 3vw;
+
+	margin-top: 0.1vw;
+	margin-right: 0.1vw;
+}
+
+/*****************************************/
+
+.text p {
+	margin: 0.3vw 0;
+}
+
+/*------------ username -----------*/
+
+.username {
+	display: flex;
+	flex-direction: row;
+
+}
+
+.username p {
+	margin-right: 0.5vw;
+
+}
+
+/*------------ comments -----------*/
+.comments {
+	width: 48vw;
+}
+.comment {
+	margin-top: 1vw;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.comment img {
+	width: 1.5vw;
+}
+
+.comment-detail {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.comment-detail img {
+	margin: 0 1vw;
+}
+
+.comment-detail p {
+	margin-right: 0.5vw;
+}
+
+.comment-detail grey {
+	color: grey;
+}
