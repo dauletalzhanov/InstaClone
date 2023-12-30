@@ -59,3 +59,20 @@
 	margin: 0;
 	padding: 0;
 }
+
+/********************** addComment **********************/
+.addComment {
+	padding: 0.5vw;
+	display: flex;
+	align-content: baseline;
+}
+
+.addComment img {
+	width: 1.5vw;
+	margin-right: 0.5vw;
+}
+
+.addComment input {
+	width: 16vw;
+	border: none;
+}
