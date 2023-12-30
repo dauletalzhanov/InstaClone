@@ -42,6 +42,31 @@
 .comments {
 	height: 28vw;
 	border-bottom: solid 1px lightgrey;
+	padding: 0.5vw;
+}
+
+.comment {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 1vw;
+
+}
+
+.comment .leftie {
+	display: flex;
+	flex-direction: row;
+}
+
+.comment p {
+	margin: 0;
+	padding: 0;
+
+}
+
+.comment img {
+	width: 2.2vw;
+	margin-right: 0.3vw;
 }
 
 /************************ buttons ***************************/
