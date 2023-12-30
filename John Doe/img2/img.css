@@ -1,0 +1,61 @@
+.content {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 4vw;
+
+	font-family: sans-serif;
+
+}
+
+.content img {
+	width: 25vw;
+	margin: 0;
+}
+
+.content-description {
+	width: 21vw;
+	border: solid lightgrey 1px;
+}
+
+/******************** username **********************/
+.username {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+	padding: 0.7vw;
+	border-bottom: 1px solid lightgrey;
+}
+
+.username div {
+	display: flex;
+	flex-direction: row;
+}
+
+.username div p {
+	margin: 0.4vw 0;
+	padding-right: 1vw;
+}
+
+/******************** comments *********************/
+.comments {
+	height: 28vw;
+	border-bottom: solid 1px lightgrey;
+}
+
+/************************ buttons ***************************/
+.buttons img {
+	width: 1.5vw;
+	margin-right: 0.5vw;
+}
+
+/********************** likes *************************/
+.likes {
+	padding: 0.5vw;
+}
+
+.likes p {
+	margin: 0;
+	padding: 0;
+}
