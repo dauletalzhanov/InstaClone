@@ -77,8 +77,11 @@
 	justify-content: space-between;
 }
 
+
 .comment img {
-	width: 1.5vw;
+	width: 2vw;
+	height: 2vw;
+	border-radius: 50%;
 }
 
 .comment-detail {
