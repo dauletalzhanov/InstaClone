@@ -1,0 +1,106 @@
+.content {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-top: 4vw;
+
+	font-family: sans-serif;
+
+}
+
+.content img {
+	width: 50vw;
+	margin: 0;
+}
+
+.content-description {
+	width: 21vw;
+	border: solid lightgrey 1px;
+}
+
+/******************** username **********************/
+.username {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+	padding: 0.7vw;
+	border-bottom: 1px solid lightgrey;
+}
+
+.username div {
+	display: flex;
+	flex-direction: row;
+}
+
+.username div p {
+	margin: 0.4vw 0;
+	padding-right: 1vw;
+}
+
+/******************** comments *********************/
+.comments {
+	height: 28vw;
+	border-bottom: solid 1px lightgrey;
+	padding: 0.5vw;
+}
+
+.comment {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-bottom: 1vw;
+
+}
+
+.comment .leftie {
+	display: flex;
+	flex-direction: row;
+}
+
+.comment p {
+	margin: 0;
+	padding: 0;
+
+}
+
+.comment img {
+	width: 2.2vw;
+	height: 2.2vw;
+	border-radius: 50%;
+	
+	margin-right: 0.3vw;
+}
+
+/************************ buttons ***************************/
+.buttons img {
+	width: 1.5vw;
+	margin-right: 0.5vw;
+}
+
+/********************** likes *************************/
+.likes {
+	padding: 0.5vw;
+}
+
+.likes p {
+	margin: 0;
+	padding: 0;
+}
+
+/********************** addComment **********************/
+.addComment {
+	padding: 0.5vw;
+	display: flex;
+	align-content: baseline;
+}
+
+.addComment img {
+	width: 1.5vw;
+	margin-right: 0.5vw;
+}
+
+.addComment input {
+	width: 16vw;
+	border: none;
+}
