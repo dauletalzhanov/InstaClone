@@ -38,7 +38,7 @@
 	width: 5vw;
 }
 
-}
+
 
 .stories ul {
 	display: flex;
@@ -59,7 +59,7 @@
 }
 
 .stories li img {
-	width: 3vw;
+	width: 4vw;
 
 	margin: 0;
 }
@@ -96,7 +96,7 @@
 
 	width: 30vw;
 
-	background-color: ;
+	
 
 	display: flex;
 	flex-direction: column;
@@ -152,9 +152,7 @@
 }
 
 
-#first {
 
-}
 
 #second {
 	width: 50vw;
