@@ -121,6 +121,15 @@ profile.addEventListener('click', function(){
 })
 
 
+///////////////////// redirecting to a profile page //////////
+stories = document.querySelector(".stories ul")
+
+stories.addEventListener('click', function(){
+	window.location="./Stories/stories.html"
+})
+
+
+
 //////////////////  like button - buttons /////////////////
 
 heartButton = document.querySelectorAll(".heart")

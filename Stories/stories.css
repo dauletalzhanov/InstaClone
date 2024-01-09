@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+
+body {
+    background-color:rgb(27, 29, 31);
+
+    display: flex;
+    flex-direction: column;
+}
+
+/* *******************  top ***************** */
+.top {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.top a {
+    margin: 1vw;
+    margin-bottom: 0;
+    
+    font-family: 'Lobster Two';
+    font-size: 2vw;
+
+    text-decoration: none;
+    color: white;
+
+}
+
+/* *******************  stories  ***************** */
+
+.stories {
+    display: flex;
+    flex-direction: row;
+
+    
+
+    align-self: center;
+
+
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.stories .story {
+    height: 20vw;
+    width: 12vw;
+
+    background-color: brown;
+    
+    border-radius: 8px;
+
+    margin: 0 2vw;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 1);
+
+}
+
+/* *******************  stories - background images  ***************** */
+
+.stories .super {
+
+    background-image: url('firework.avif');
+}
+
+.stories .one {
+    background-image: url('photographer.jpg');
+}
+
+.stories .two {
+    background-image: url('horse.jpg');
+}
+
+.stories .three {
+    background-image: url('bridge.jpg');
+}
+
+.stories .four {
+    background-image: url('dog.jpg');
+}
+
+/* *******************  stories - profile info  ***************** */
+
+.story {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.story img {
+    width: 4vw;
+    height: 4vw;
+}
+
+.story p {
+    margin: 0.25vw 0;
+    
+    font-family: sans-serif;
+    
+
+
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;    
+}
+
+/* *******************  stories - super story ***************** */
+
+.stories .super {
+    width: 24vw;
+    height: 44vw;
+
+    
+    background-image: url('firework.avif');
+    
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+/* upper */
+
+.super .upper .second {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
+}
+
+.second .profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile img {
+    width: 2vw;
+}
+
+.controls img {
+    width: 1.5vw;
+}
+
+
+/* lower */
+
+.lower {
+    display: flex;
+    height: 2vw;
+    margin-bottom: 1vw;
+}
+
+.lower img {
+    height: 2vw;
+    fill: white;
+    stroke: white;
+    stop-color: white;
+    flood-color: white;
+    lighting-color: white;
+}
+
+.lower input {
+    
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid lightgray;
+    border-radius: 16px;
+    color: lightgray;
+
+    width: 12vw;
+}
+
+::-ms-input-placeholder {
+    color: white;
+}
+
+::placeholder {
+    color: lightgray;
+    opacity: 1; /* Firefox */
+    margin-left: 1vw;
+  }
